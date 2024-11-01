@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Higher Grounds Chapel AG | Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/3d9dc13736.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- ---- HEADER SECTION ------ -->
+    <header>
+      <div class="header-row">
+        <div class="container">
+          <div class="navbar">
+            <div class="logo">
+              <img
+                title="Higher Grounds Chapel AG Logo"
+                src="images/logo.png"
+                alt="Logo"
+              />
+            </div>
+            <nav>
+              <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="ministries.html">Ministries</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+              <div class="menu-icon" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ---- END OF HEADER ----- -->
+
+    <!-- ----MAIN SECTION------ -->
+    <main>
+      <section class="hero-slider">
+        <div class="slides">
+          <div class="slide active" data-background="images/hero-img-1.jpeg">
+            <div class="hero-text">
+              <h2>Welcome</h2>
+              <h1>Higher Grounds Chapel AG</h1>
+              <h3>We believe God for hard things</h3>
+              <a href="#" class="btn">LEARN MORE</a>
+            </div>
+          </div>
+          <div class="slide" data-background="images/hero-img-4.jpeg">
+            <div class="hero-text">
+              <h2>Welcome</h2>
+              <h1>Empowering Faith</h1>
+              <h3>Where hope is renewed</h3>
+              <a href="#" class="btn">DISCOVER MORE</a>
+            </div>
+          </div>
+          <div class="slide" data-background="images/hero-img-3.jpeg">
+            <div class="hero-text">
+              <h2>Welcome</h2>
+              <h1>Building Community</h1>
+              <h3>Together in faith</h3>
+              <a href="#" class="btn">JOIN US</a>
+            </div>
+          </div>
+        </div>
+        <div class="dots">
+          <span class="dot active" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </section>
+    </main>
+
+
+
+    <footer>
+
+
+
+
+    </footer>
+
+    <!-- ----END OF MAIN SECTION------ -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
