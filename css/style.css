@@ -344,6 +344,10 @@ nav ul li a {
   padding:80px 0;
 }
 
+.ministry-title{
+   text-align:center;
+}
+
 .ministry-desc{
      max-width:700px;
      margin:auto;
