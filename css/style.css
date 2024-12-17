@@ -307,6 +307,8 @@ nav ul li a {
   margin-bottom:2em;
 }
 
+
+
 .section-title::after{
      content: '';
       width:70px;
@@ -348,8 +350,19 @@ nav ul li a {
   text-align: center;
 }
 
+.ministry-title h1::after{
+  content: "";
+  width:120px;
+  height: 4px;
+  display:block;
+  margin:10px auto;
+  border-radius:5px;
+  background-color:#081356;
+}
+
 .ministry-title h1 {
   font-size: 2.5rem;
+  margin-bottom:2em;
 }
 
 .ministry-desc {
