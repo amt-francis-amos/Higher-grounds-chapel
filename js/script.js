@@ -55,3 +55,31 @@ function toggleMenu() {
 
 const currentYear = new Date().getFullYear();
 document.getElementById('year').textContent = currentYear;
+
+
+
+var swiper = new Swiper('.ministry-swiper', {
+  slidesPerView: 1, /* Default: 1 slide at a time */
+  spaceBetween: 20,
+  loop: true, /* Infinite loop */
+  autoplay: {
+    delay: 3000, /* Auto slide every 3 seconds */
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2, /* 2 slides at medium screens */
+    },
+    1024: {
+      slidesPerView: 3, /* 3 slides at large screens */
+    },
+  },
+});
