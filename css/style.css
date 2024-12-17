@@ -348,6 +348,10 @@ nav ul li a {
    text-align:center;
 }
 
+.ministry-title h1{
+     font-size:2.5rem;
+}
+
 .ministry-desc{
      max-width:700px;
      margin:auto;
