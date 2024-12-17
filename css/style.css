@@ -307,7 +307,15 @@ nav ul li a {
   margin-bottom:2em;
 }
 
-.se 
+.section-title::after{
+     content: '';
+      width:70px;
+      height:3px;
+      display: block;
+      background: #081356;
+      margin:10px auto;
+
+} 
 
 
 .about-info img{
@@ -586,6 +594,11 @@ footer .tel{
   }
 
 
+  .section-description{
+    text-align: justify;
+  }
+  
+  
 }
 
 
