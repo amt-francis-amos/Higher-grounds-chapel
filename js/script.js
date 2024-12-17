@@ -51,3 +51,7 @@ function toggleMenu() {
     menuIcon.classList.add('fa-bars');
   }
 }
+
+
+const currentYear = new Date().getFullYear();
+document.getElementById('year').textContent = currentYear;
