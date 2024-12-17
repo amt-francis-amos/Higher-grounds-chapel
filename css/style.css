@@ -119,8 +119,17 @@ nav ul li a {
 }
 
 .welcome-info p{
-  font-size:1.2rem;
+  font-size:1.1rem;
+  line-height:1.5;
   
+}
+
+.hero-text .btn{
+  padding:12px 30px;
+  background:#081356;
+  border:none;
+  outline:none;
+
 }
 
 
@@ -509,11 +518,38 @@ footer .tel{
   .hero-text h3 {
     font-size: 16px; 
   }
+
+  .welcome-info{
+    padding:0 2em;
+    text-align: justify;
+  }
+
+  .welcome h1{
+    font-size:1.3rem;
+  }
+
+  footer{
+    text-align: center;
+  }
+
+  .social-icon{
+     text-align:center;
+     margin:0 auto;
+  }
 }
+
+
+
+
+
 
 @media (max-width: 480px) {
   .hero-text {
     top: 30%; /
+  }
+
+  .hero-text h2{
+    font-size:1.5rem;
   }
 
   .hero-text h1 {
@@ -523,6 +559,8 @@ footer .tel{
   .hero-text a {
     padding: 10px 20px;
   }
+
+  
 }
 
 
