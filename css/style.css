@@ -398,6 +398,53 @@ nav ul li a {
     height:40vh;
     object-fit: cover;
 }
+/* Container for image and overlay text */
+.image-overlay {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden; /* Ensures content doesn't spill out */
+  cursor: pointer;
+}
+
+/* Image styling */
+.image-overlay img {
+  width: 100%;
+  height: 40vh;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out; /* Smooth zoom on hover */
+}
+
+/* Overlay styling */
+.image-overlay span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 123, 255, 0.6); /* Blue overlay with transparency */
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease-in-out;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* Hover effect */
+.image-overlay:hover span {
+  opacity: 1; /* Show text overlay */
+}
+
+.image-overlay:hover img {
+  transform: scale(1.1); /* Zoom in the image */
+}
+
 
 /* ------ END OF MINISTIES STYLING ---- */
 
