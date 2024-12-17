@@ -307,6 +307,8 @@ nav ul li a {
   margin-bottom:2em;
 }
 
+.se 
+
 
 .about-info img{
     border-radius:15px;
@@ -573,6 +575,17 @@ footer .tel{
      text-align:center;
      margin:0 auto;
   }
+
+  .about-container{
+     padding:0 2em;
+  }
+
+  .section-title{
+     font-size:1.2rem;
+     max-width: 200px;
+  }
+
+
 }
 
 
