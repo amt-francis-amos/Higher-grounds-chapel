@@ -380,10 +380,6 @@ nav ul li a {
 
 
 
-
-
-
-
 /* ------FOOTER STYLING ------ */
 footer {
   background-color: #081356; 
@@ -398,6 +394,14 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   max-width: 1240px; 
   margin: 0 auto;
+}
+
+footer .email{
+  color:var(--white-color)
+}
+
+footer .tel{
+  color:var(--white-color);
 }
 
 .footer-logo img {
