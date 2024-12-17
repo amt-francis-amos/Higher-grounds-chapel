@@ -526,6 +526,87 @@ nav ul li a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../images/event-banner2.jpeg');
   
 }
+
+.event-page{
+  padding:80px 0;
+}
+
+.event-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.event-header h1 {
+  font-size: 2.8rem;
+  color: #042028;
+}
+
+.event-header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+
+.video-section {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.video-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.activities {
+  margin-bottom: 50px;
+}
+
+.activities h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.activity-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.activity-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.activity-card h3 {
+  font-size: 1.5rem;
+  color: #081356;
+}
+
+.activity-card p {
+  color: #555;
+  font-size: 1rem;
+}
 /* --- END OF CONTACT STYLING ----- */
 
 
@@ -570,7 +651,7 @@ nav ul li a {
 }
 
 h2 {
-  margin-top: 0;
+  margin:1em 0;
   color: #042028;
 }
 
@@ -646,7 +727,7 @@ textarea {
   background-color: #081356;
 }
 
-/* Map Styling */
+
 iframe {
   border-radius: 8px;
 }
