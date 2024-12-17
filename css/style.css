@@ -419,12 +419,13 @@ footer .tel{
 .footer-links h3, .footer-follow h3, .footer-contact h3 {
   font-size: 1.5rem;
   margin-bottom:2rem; 
+  color:#eeb701
 }
 
 .footer-contact p{
   margin-top:15px;
 }
-
+;
 .footer-links ul {
   list-style-type: none;
  
