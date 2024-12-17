@@ -340,6 +340,17 @@ nav ul li a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/ministries.jpg');
 }
 
+.ministry{
+  padding:80px 0;
+}
+
+.ministry-desc{
+     max-width:700px;
+     margin:auto;
+     text-align:center;
+     line-height:1.5;
+}
+
 /* ------ END OF MINISTIES STYLING ---- */
 
 
