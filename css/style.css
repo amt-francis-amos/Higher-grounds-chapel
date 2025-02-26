@@ -735,10 +735,13 @@ textarea {
   background-color: #081356;
 }
 
-
-iframe {
+.contact-map iframe {
+  width: 100%;
+  max-width: 100%;
   border-radius: 8px;
 }
+
+
 
 
 /* --- END OF CONTACT STYLING ----- */
@@ -989,7 +992,7 @@ footer .tel{
   }
 
   .contact {
-    padding: 50px 15px; /* Adjust padding */
+    padding: 50px 15px;
   }
 
   .contact-title {
