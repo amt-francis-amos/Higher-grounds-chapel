@@ -822,17 +822,15 @@ footer .tel{
 
 .social-icons {
   display: flex;
-  justify-content: center; 
-  gap: 15px; 
-  margin-top: 10px;
+  gap:1em;
 }
 
 .social-icon {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%; 
   background-color: #eeb701; 
   color: #081356; 
