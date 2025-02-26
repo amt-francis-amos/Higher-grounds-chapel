@@ -663,6 +663,11 @@ h2 {
   color: #042028;
 }
 
+.contact-icons{
+  display:flex;
+  gap:2em;
+}
+
 .contact-icons i{
    color:#081356;
    margin:1em auto;
