@@ -912,9 +912,17 @@ footer .tel{
      max-width: 200px;
   }
 
+  .ministry-title{
+    padding:0 30px;
+  }
+
 
   .section-description{
     text-align: justify;
+  }
+
+  .swiper-wrapper{
+    padding:10px 0;
   }
   
   
